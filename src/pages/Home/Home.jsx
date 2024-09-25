@@ -3,6 +3,7 @@ import Footer from '../../Components/Footer';
 import CarouselDefault from './Components/Carousel';
 import IntroText from './Components/IntroText';
 import Testamonials from './Components/Testamonials';
+import Product from './Components/Product';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <CarouselDefault />
         <IntroText />
         <hr className="border-b border-dark-blue border-solid border-opacity-100" />
+        <Product />
         <Testamonials />
       </div>
     </div>
