@@ -6,5 +6,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background-color: '#BBE1FA';
+}
+.custom-slider .slick-slide {
+  margin-right: 20px; /* Adjust the gap as needed */
+}
+
+.custom-slider .slick-list {
+  margin-right: -20px; /* Compensate for the margin to prevent clipping */
 }
