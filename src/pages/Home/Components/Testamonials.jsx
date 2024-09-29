@@ -41,7 +41,7 @@ export default function Testimonials() {
 
   return (
     <>
-      <h3 className="text-3xl font-bold text-dark-blue  text-center pt-4">Testamonials</h3>
+      <h3 className="text-3xl font-bold text-dark-blue  text-center pt-4 mt-10 ">Testamonials</h3>
       <div className="box-border slider-container px-6 py-8 custom-slider">
         <Slider {...settings}>
           <div className="p-6 text-font-blue bg-dark-blue rounded-lg shadow-lg">

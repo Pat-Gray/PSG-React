@@ -1,6 +1,6 @@
 export default function IntroText() {
   return (
-    <section className="bg-font-blue text-dark-blue p-5 md:grid md:grid-cols-2 md:gap-4">
+    <section className="bg-font-blue text-dark-blue p-5 md:grid md:grid-cols-2 md:gap-4 mb-10">
       <h1 className="font-semibold text-xl leading-9 md:col-start-2 md:row-span-full md:content-center md:col-span-1 md:pt-5">
         IFMGA Mountain & Ski Guide based in Wanaka, New Zealand.
         <br />

@@ -7,9 +7,6 @@ export default function CarouselDefault() {
   return (
     <Carousel className=" bg-font-blue">
       <img src={GuidePet} alt="Petrouchka Guiding" className="h-full w-full object-cover" />
-
-      <img src={GuidePetJapan} alt="Ski Guiding Niseko Japan" className="h-full w-full object-cover" />
-
       <img src={GuidePetTasman} alt="Ski Guiding on the Tasman Glacier" className="h-full w-full object-cover" />
     </Carousel>
   );
