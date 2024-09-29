@@ -13,6 +13,7 @@ export default function Home() {
         <IntroText />
         <hr className="border-b border-dark-blue border-solid border-opacity-100" />
         <Product />
+        <hr className="border-b border-dark-blue border-solid border-opacity-40" />
         <Testamonials />
       </div>
     </div>

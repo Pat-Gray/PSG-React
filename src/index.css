@@ -16,3 +16,7 @@
 .custom-slider .slick-list {
   margin-right: -20px; /* Compensate for the margin to prevent clipping */
 }
+
+.no-scroll {
+  overflow: hidden;
+}
