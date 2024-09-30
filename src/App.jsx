@@ -10,6 +10,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<h1>404 Not Found</h1>} />
         </Route>
       </Routes>
     </BrowserRouter>
