@@ -62,10 +62,12 @@ export default function Header(props) {
                 Overseas & Expeditions
               </li>
               <hr />
-              <li onClick={props.closeDropdown} className="block py-4 px-4 hover:bg-gray-100 ">
-                <img src={question} alt="question icon" className="h-8 inline-block mr-2"></img>
-                FAQ
-              </li>
+              <Link to="/faq">
+                <li onClick={props.closeDropdown} className="block py-4 px-4 hover:bg-gray-100 ">
+                  <img src={question} alt="question icon" className="h-8 inline-block mr-2"></img>
+                  FAQ
+                </li>
+              </Link>
               <hr />
               <Link to="/contact">
                 <li onClick={props.closeDropdown} className="block py-4 px-4 hover:bg-gray-100 text-center">
