@@ -1,7 +1,7 @@
-import LowPk from '../../Images/climb-images/AdamMountCookLowPk.jpg';
-import FiordlandIce from '../../Images/climb-images/FiordlandIceClimbing.jpg';
-import NorwayIce from '../../Images/climb-images/PetNorwayIce.jpg';
-import Trogan from '../../Images/climb-images/PetTrogan.jpg';
+import LowPk from '../../../Images/climb-images/AdamMountCookLowPk.jpg';
+import FiordlandIce from '../../../Images/climb-images/FiordlandIceClimbing.jpg';
+import NorwayIce from '../../../Images/climb-images/PetNorwayIce.jpg';
+import Trogan from '../../../Images/climb-images/PetTrogan.jpg';
 
 export const mountaineeringProducts = [
   {
@@ -15,6 +15,7 @@ export const mountaineeringProducts = [
     badge: 'Life-long dream',
     badgeColor: 'bg-blue-500',
     link: 'climbthe3000mpeaks',
+    bigger: true,
   },
   {
     img: FiordlandIce,
@@ -27,6 +28,7 @@ export const mountaineeringProducts = [
     badge: 'Winter & Spring',
     badgeColor: 'bg-purple-500',
     link: 'iceclimbing',
+    bigger: false,
   },
   {
     img: Trogan,
@@ -39,6 +41,7 @@ export const mountaineeringProducts = [
     badge: 'Year-round Adventure',
     badgeColor: 'bg-orange-500',
     link: 'rockclimbing',
+    bigger: false,
   },
   {
     img: NorwayIce,
@@ -51,6 +54,7 @@ export const mountaineeringProducts = [
     badge: 'Education & Training',
     badgeColor: 'bg-green-500',
     link: 'mountaineeringcourses',
+    bigger: true,
   },
   {
     img: NorwayIce,
@@ -63,6 +67,7 @@ export const mountaineeringProducts = [
     badge: 'Iconic Summit',
     badgeColor: 'bg-red-500',
     link: 'mountaspiring',
+    bigger: false,
   },
   {
     img: NorwayIce,
@@ -75,6 +80,7 @@ export const mountaineeringProducts = [
     badge: 'Remote & Challenging',
     badgeColor: 'bg-violet-500',
     link: 'mounttutoko',
+    bigger: false,
   },
   {
     img: LowPk,
@@ -87,6 +93,7 @@ export const mountaineeringProducts = [
     badge: 'Technical Challenge',
     badgeColor: 'bg-orange-500',
     link: 'technicalascents',
+    bigger: false,
   },
   {
     img: LowPk,
@@ -99,5 +106,6 @@ export const mountaineeringProducts = [
     badge: 'Global Adventure',
     badgeColor: 'bg-teal-500',
     link: 'expeditions',
+    bigger: false,
   },
 ];

@@ -3,7 +3,9 @@ import Home from './pages/Home/Home';
 import Layout from './Components/Layout';
 import Contact from './pages/Contact/Contact';
 import FAQ from './pages/FAQ/FAQ';
-import Mountaineering from './pages/Mountaineering/Mountaineering';
+import Mountaineering from './pages/Products/Mountaineering/Mountaineering';
+import Skiing from './pages/Products/Skiing/Skiing';
+import Expedition from './pages/Products/Expeditions/Expedition';
 
 function App() {
   return (
@@ -22,6 +24,9 @@ function App() {
             <Route path="technicalascents" element={<h1>technicalascent</h1>} />
             <Route path="expeditions" element={<h1>expeditions</h1>} />
           </Route>
+          "
+          <Route path="skiing" element={<Skiing />} />
+          <Route path="expeditions" element={<Expedition />} />
           <Route path="faq" element={<FAQ />} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<h1>404 Not Found</h1>} />

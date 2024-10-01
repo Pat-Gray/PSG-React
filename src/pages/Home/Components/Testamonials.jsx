@@ -4,14 +4,14 @@ import Slider from 'react-slick';
 export default function Testimonials() {
   const settings = {
     className: 'center',
-    centerMode: true,
     infinite: true,
-    centerPadding: '60px',
+    centerMode: true,
+    centerPadding: '0rem',
     slidesToShow: 3,
+    slidesToScroll: 3,
     autoplay: true,
     speed: 2000,
     autoplaySpeed: 5000,
-    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1024, // Large screens
@@ -41,20 +41,15 @@ export default function Testimonials() {
 
   return (
     <>
-      <h3 className="text-3xl font-bold text-dark-blue  text-center pt-4 mt-10">Testamonials</h3>
-      <div className="box-border slider-container px-6 py-8 custom-slider">
+      <h3 className="text-3xl font-bold text-dark-blue text-center pt-4 mt-10">Testimonials</h3>
+      <div className="px-6 py-8 ">
         <Slider {...settings}>
-          <div className=" p-6 text-font-blue bg-dark-blue rounded-lg shadow-lg mx-2 inline-block">
+          <div className=" !w-[95%] p-6 text-font-blue bg-dark-blue rounded-lg shadow-lg inline-block">
             <p>
-              <i>
-                "Pet was a fantastic guide with a high level of knowledge and professionalism. Would highly recommend."
-              </i>
+              <i>"Pet was a fantastic guide with a high level of knowledge and professionalism."</i>
             </p>
-            <h4 className="mt-4 font-semibold">
-              Jessica - <i>Mountaineering Course</i>
-            </h4>
           </div>
-          <div className="mx-2 inline-block p-6 text-font-blue bg-dark-blue rounded-lg shadow-lg">
+          <div className="p-6 text-font-blue bg-dark-blue rounded-lg shadow-lg mx-auto !w-[95%]">
             <p>
               <i>
                 "Petrouchka was an excellent guide. She was clearly very competent and calm and managed the diversity
@@ -67,7 +62,7 @@ export default function Testimonials() {
               Elsa - <i>Ball Pass Crossing</i>
             </h4>
           </div>
-          <div className="mx-2 inline-block p-6 text-font-blue bg-dark-blue rounded-lg shadow-lg">
+          <div className="p-6 text-font-blue bg-dark-blue rounded-lg shadow-lg mx-auto !w-[95%]">
             <p>
               <i>"10/10. Pet was patient, methodical and had a wealth of experience to pass on!"</i>
             </p>
@@ -75,7 +70,7 @@ export default function Testimonials() {
               Kevin - <i>Backcountry Touring Course</i>
             </h4>
           </div>
-          <div className="mx-2 inline-block p-6 text-font-blue bg-dark-blue rounded-lg shadow-lg">
+          <div className="p-6 text-font-blue bg-dark-blue rounded-lg shadow-lg mx-auto !w-[95%]">
             <p>
               <i>
                 "The guide in particular was outstanding. I have previously had experience with 5 other ski-touring

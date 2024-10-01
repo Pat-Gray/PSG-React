@@ -27,7 +27,7 @@ const productArray = [
     description: 'Ski touring, Ski-mountaineering descents & Avalanche Courses',
     iconSrc: ski,
     iconAlt: 'ski icon',
-    path: '/',
+    path: '/skiing',
   },
   {
     img: Trogan,
@@ -45,7 +45,7 @@ const productArray = [
     description: 'Get in touch if you have a dream trip or climb',
     iconSrc: mountain,
     iconAlt: 'Mountain icon',
-    path: '/',
+    path: '/expeditions',
   },
 ];
 
