@@ -4,7 +4,6 @@ import ProductHeader from './../Components/ProductHeader';
 import HansClimbing from '../../../Images/climb-images/HansIceClimbing.jpg';
 import GeneralOverview from '../Components/GeneralOverview';
 import ProductCards from '../Mountaineering/ProductCards';
-// import { skiActivities } from './skiProductData';
 
 export default function Skiing() {
   return (
@@ -24,7 +23,6 @@ export default function Skiing() {
         img={HansClimbing}
         alt="ice climbing in Fiordland, NZ"
       />
-      {/* <ProductCards array={skiActivities} /> */}
     </>
   );
 }
