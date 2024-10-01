@@ -3,14 +3,14 @@ import ProductHeader from './../Components/ProductHeader';
 import GeneralOverview from '../Components/GeneralOverview';
 import { LuMountainSnow } from 'react-icons/lu';
 import HansClimbing from '../../../Images/climb-images/HansIceClimbing.jpg';
-import SkiingPlateau from '../../../Images/products-imgs/skitouringplateau.jpg';
+import PointingmtCook from '../../../Images/climb-images/pointingInCookNp.jpg';
 
 export default function Expedition() {
   return (
     <>
       <div className="bg-gray-100">
         <ProductHeader
-          img={SkiingPlateau}
+          img={PointingmtCook}
           alt="Client ski touring on the  Grand plateau"
           title="Overseas Custom Trips & Expeditions"
           subtitle="Climbing | Skiing"

@@ -3,14 +3,14 @@ import { LuMountainSnow } from 'react-icons/lu';
 import ProductHeader from './../Components/ProductHeader';
 import HansClimbing from '../../../Images/climb-images/HansIceClimbing.jpg';
 import GeneralOverview from '../Components/GeneralOverview';
-import ProductCards from '../Mountaineering/ProductCards';
+import PointingmtCook from '../../../Images/climb-images/pointingInCookNp.jpg';
 
 export default function Skiing() {
   return (
     <>
       <div className="bg-gray-100">
         <ProductHeader
-          img={SkiingPlateau}
+          img={PointingmtCook}
           alt="Client ski touring on the  Grand plateau"
           title="Ski-Touring & Ski-Mountaineering"
           subtitle="Glacial Ski Touring | Ski-Mountaineering Courses"
