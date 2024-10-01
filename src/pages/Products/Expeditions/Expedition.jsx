@@ -3,7 +3,7 @@ import ProductHeader from './../Components/ProductHeader';
 import GeneralOverview from '../Components/GeneralOverview';
 import { LuMountainSnow } from 'react-icons/lu';
 import HansClimbing from '../../../Images/climb-images/HansIceClimbing.jpg';
-import SkiingPlateau from '../../Images/products-imgs/skitouringplateau.jpg';
+import SkiingPlateau from '../../../Images/products-imgs/skitouringplateau.jpg';
 
 export default function Expedition() {
   return (
