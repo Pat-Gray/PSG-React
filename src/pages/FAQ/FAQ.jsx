@@ -1,6 +1,6 @@
 import React, { useState, memo } from 'react';
 import campingTorres from '../../Images/products-imgs/CampingundertasmanandTorres.jpg';
-import SkitouringPlateau from '../../Images/products-imgs/SkitouringPlateau.jpg';
+import SkitouringPlateau from '../../Images/ski-images/plateau.jpg';
 import FoxNeveSki from '../../Images/climb-images/FoxNeveSkiTouring.jpg';
 import Maltebrun from '../../Images/climb-images/patMalteBrun.jpg';
 import RidgeClimbing from '../../Images/climb-images/ridgeClimbing.jpg';
