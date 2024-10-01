@@ -8,8 +8,8 @@ import LowPk from '../../../Images/climb-images/AdamMountCookLowPk.jpg';
 import SthFace from '../../../Images/climb-images/DouglasSthFace.jpg';
 import Pointing from '../../../Images/climb-images/pointingInCookNp.jpg';
 
-import PetNorway2 from '../../../Images/climb-images/PetNorwayIce2.jpg';
 import ProductCards from './ProductCards';
+import PetNorway2 from '../../../Images/climb-images/PetNorwayIce2.jpg';
 import ProductHeader from '../Components/ProductHeader';
 import GeneralOverview from '../Components/GeneralOverview';
 import { mountaineeringProducts } from './climbProductData';
