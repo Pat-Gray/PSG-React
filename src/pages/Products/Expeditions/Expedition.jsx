@@ -1,5 +1,5 @@
 import ProductHeader from './../Components/ProductHeader';
-import SkiingPlateau from '../../../Images/products-imgs/Skitouringplateau.jpg';
+import SkiingPlateau from '../../../Images/products-imgs/skitouringplateau.jpg';
 import GeneralOverview from '../Components/GeneralOverview';
 import { LuMountainSnow } from 'react-icons/lu';
 import HansClimbing from '../../../Images/climb-images/HansIceClimbing.jpg';
