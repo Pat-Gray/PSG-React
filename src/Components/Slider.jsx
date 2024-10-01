@@ -11,6 +11,14 @@ const SliderCarousel = ({ images }) => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 768, // small screen (tablet and mobile)
+        settings: {
+          slidesToShow: 1, // show one image on smaller screens
+        },
+      },
+    ],
   };
 
   return (
@@ -18,7 +26,7 @@ const SliderCarousel = ({ images }) => {
       <Slider {...settings}>
         {images.map((image, index) => (
           <div key={index}>
-            <img src={image.src} alt={image.alt} className="h-auto w-full" />
+            <img src={image.src} alt={image.alt} className="h-auto w-full noOutline" />
           </div>
         ))}
       </Slider>

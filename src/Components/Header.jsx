@@ -47,10 +47,12 @@ export default function Header(props) {
                   Home
                 </li>
               </Link>
-              <li onClick={props.closeDropdown} className="block py-4 px-4 hover:bg-gray-100 ">
-                <img src={iceaxe} alt="ice axe icon" className="h-8 inline-block mr-2"></img>
-                Mountaineering & Climbing
-              </li>
+              <Link to="mountaineering&climbing">
+                <li onClick={props.closeDropdown} className="block py-4 px-4 hover:bg-gray-100 ">
+                  <img src={iceaxe} alt="ice axe icon" className="h-8 inline-block mr-2"></img>
+                  Mountaineering & Climbing
+                </li>
+              </Link>
               <hr />
               <li onClick={props.closeDropdown} className="block py-4 px-4 hover:bg-gray-100 ">
                 <img src={ski} alt="skiing icon" className="h-8 inline-block mr-2" />

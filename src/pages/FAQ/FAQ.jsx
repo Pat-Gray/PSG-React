@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, memo } from 'react';
 import campingTorres from '../../Images/products-imgs/CampingundertasmanandTorres.jpg';
 import SkitouringPlateau from '../../Images/products-imgs/SkitouringPlateau.jpg';
 import FoxNeveSki from '../../Images/climb-images/FoxNeveSkiTouring.jpg';
@@ -8,13 +8,41 @@ import PatNazomi from '../../Images/climb-images/pat-nazomi.jpg';
 import SliderCarousel from '../../Components/Slider';
 import { CiSquarePlus, CiSquareMinus } from 'react-icons/ci';
 
+// Memoize FAQList to prevent unnecessary re-renders
+const FAQList = memo(({ faqs, visibleIndex, toggleAnswer }) => (
+  <div className="faq-container space-y-4">
+    {faqs.map((faq, index) => (
+      <div
+        key={index}
+        className={`faq-item bg-dark-blue text-white rounded-lg shadow-lg p-6 transition-all duration-500 ${
+          visibleIndex === index ? 'max-h-40' : 'max-h-16 overflow-hidden'
+        }`}
+      >
+        <div className="flex justify-between items-center">
+          <h3 className="text-lg font-semibold text-white">{faq.question}</h3>
+          <button onClick={() => toggleAnswer(index)} className="text-blue-500 hover:text-blue-400">
+            {visibleIndex === index ? <CiSquareMinus className="text-2xl" /> : <CiSquarePlus className="text-2xl" />}
+          </button>
+        </div>
+        <div
+          className={`text-sm text-white mt-4 overflow-hidden transition-opacity duration-300 ease-in-out ${
+            visibleIndex === index ? 'opacity-100' : 'opacity-0'
+          }`}
+        >
+          {faq.answer}
+        </div>
+      </div>
+    ))}
+  </div>
+));
+
 export default function FAQ() {
   const images = [
     { src: Maltebrun, alt: 'The classic Cheval on MalteBrun West Ridge, NZ' },
     { src: RidgeClimbing, alt: 'Instruction on ridge Climbing' },
     { src: PatNazomi, alt: 'Climbing South face of Nazomi, NZ' },
     { src: FoxNeveSki, alt: 'Ski touring on fox Neve, West Coast, NZ' },
-    { src: SkitouringPlateau, alt: 'Ski Touring on Grand Plateau, NZ' },
+    { src: SkitouringPlateau, alt: 'Ski Touring on Grand Plateau' },
     { src: campingTorres, alt: 'Camping under Tasman and Torres' },
   ];
 
@@ -35,40 +63,19 @@ export default function FAQ() {
     },
   ];
 
-  const FAQList = ({ faqs }) => {
-    const [visibleIndex, setVisibleIndex] = useState(null);
+  const [visibleIndex, setVisibleIndex] = useState(null);
 
-    const toggleAnswer = (index) => {
-      setVisibleIndex(visibleIndex === index ? null : index);
-    };
-
-    return (
-      <div className="faq-container space-y-4">
-        {faqs.map((faq, index) => (
-          <div key={index} className="faq-item bg-dark-blue text-white rounded-lg shadow-lg p-6">
-            <div className="flex justify-between items-center">
-              <h3 className="text-lg font-semibold text-white ">{faq.question}</h3>
-              <button onClick={() => toggleAnswer(index)} className="text-blue-500 hover:text-blue-400">
-                {visibleIndex === index ? (
-                  <CiSquareMinus className="text-2xl" />
-                ) : (
-                  <CiSquarePlus className="text-2xl" />
-                )}
-              </button>
-            </div>
-            {visibleIndex === index && <p className="text-sm text-white mt-4">{faq.answer}</p>}
-          </div>
-        ))}
-      </div>
-    );
+  const toggleAnswer = (index) => {
+    setVisibleIndex(visibleIndex === index ? null : index);
   };
 
   return (
     <div className="faq-page bg-font-blue min-h-screen">
-      <SliderCarousel images={images} />
+      {/* Lazy Loading Slider */}
+      <SliderCarousel images={images.map((img) => ({ ...img, loading: 'lazy' }))} />
       <div className="p-8">
-        <h2 className=" text-3xl font-bold mb-8 mt-3 text-center text-dark-blue">Frequently Asked Questions</h2>
-        <FAQList faqs={faqs} />
+        <h2 className="text-3xl font-bold mb-8 mt-3 text-center text-dark-blue">Frequently Asked Questions</h2>
+        <FAQList faqs={faqs} visibleIndex={visibleIndex} toggleAnswer={toggleAnswer} />
       </div>
     </div>
   );
