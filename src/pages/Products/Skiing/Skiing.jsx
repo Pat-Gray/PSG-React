@@ -1,4 +1,3 @@
-import SkiingPlateau from '../../../Images/products-imgs/skitouringplateau.jpg';
 import { LuMountainSnow } from 'react-icons/lu';
 import ProductHeader from './../Components/ProductHeader';
 import HansClimbing from '../../../Images/climb-images/HansIceClimbing.jpg';
