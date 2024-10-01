@@ -41,10 +41,10 @@ export default function Testimonials() {
 
   return (
     <>
-      <h3 className="text-3xl font-bold text-dark-blue  text-center pt-4 mt-10 ">Testamonials</h3>
+      <h3 className="text-3xl font-bold text-dark-blue  text-center pt-4 mt-10">Testamonials</h3>
       <div className="box-border slider-container px-6 py-8 custom-slider">
         <Slider {...settings}>
-          <div className="p-6 text-font-blue bg-dark-blue rounded-lg shadow-lg">
+          <div className=" p-6 text-font-blue bg-dark-blue rounded-lg shadow-lg mx-2 inline-block">
             <p>
               <i>
                 "Pet was a fantastic guide with a high level of knowledge and professionalism. Would highly recommend."
@@ -54,7 +54,7 @@ export default function Testimonials() {
               Jessica - <i>Mountaineering Course</i>
             </h4>
           </div>
-          <div className="p-6 text-font-blue bg-dark-blue rounded-lg shadow-lg">
+          <div className="mx-2 inline-block p-6 text-font-blue bg-dark-blue rounded-lg shadow-lg">
             <p>
               <i>
                 "Petrouchka was an excellent guide. She was clearly very competent and calm and managed the diversity
@@ -67,7 +67,7 @@ export default function Testimonials() {
               Elsa - <i>Ball Pass Crossing</i>
             </h4>
           </div>
-          <div className="p-6 text-font-blue bg-dark-blue rounded-lg shadow-lg">
+          <div className="mx-2 inline-block p-6 text-font-blue bg-dark-blue rounded-lg shadow-lg">
             <p>
               <i>"10/10. Pet was patient, methodical and had a wealth of experience to pass on!"</i>
             </p>
@@ -75,7 +75,7 @@ export default function Testimonials() {
               Kevin - <i>Backcountry Touring Course</i>
             </h4>
           </div>
-          <div className="p-6 text-font-blue bg-dark-blue rounded-lg shadow-lg">
+          <div className="mx-2 inline-block p-6 text-font-blue bg-dark-blue rounded-lg shadow-lg">
             <p>
               <i>
                 "The guide in particular was outstanding. I have previously had experience with 5 other ski-touring
