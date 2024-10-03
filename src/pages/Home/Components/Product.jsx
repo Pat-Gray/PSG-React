@@ -1,5 +1,5 @@
 import EastRidge from '../../../Images/climb-images/petOnEastRidge.webp';
-import PatStetind from '../../../Images/climb-images/Climbing Stetind Norway.webp';
+import PatStetind from '../../../Images/products-imgs/patnorway.webp';
 import SkiPlane from '../../../Images/climb-images/SkiPlane.webp';
 import Trogan from '../../../Images/climb-images/PetTrogan.webp';
 import SkiPlateau from '../../../Images/ski-images/plateau.webp';
@@ -67,6 +67,7 @@ function mapProducts() {
             <img
               src={el.iconSrc}
               alt={el.iconAlt}
+              loading="lazy"
               className="mt-2 drop-shadow-xl opacity-0 w-16 p-3 mb-5 bg-white rounded-3xl transition-opacity duration-500 transform group-hover:opacity-100 group-hover:scale-105"
             ></img>
             <h3 className="text-2xl font-bold drop-shadow-xl transition-transform duration-500 transform group-hover:scale-110">

@@ -13,6 +13,7 @@ export default function Expedition() {
           alt="Client ski touring on the  Grand plateau"
           title="Overseas Custom Trips & Expeditions"
           subtitle="Climbing | Skiing"
+          loading="lazy"
         />
       </div>
       <GeneralOverview

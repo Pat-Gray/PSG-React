@@ -8,7 +8,7 @@ import Product from './Components/Product';
 export default function Home() {
   return (
     <div className="bg-font-blue">
-      <div className="max-w-screen-xl mx-auto">
+      <div className="mx-auto">
         <CarouselDefault />
         <IntroText />
         <hr className="border-b border-dark-blue border-solid border-opacity-100" />
