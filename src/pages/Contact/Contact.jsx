@@ -2,8 +2,8 @@ import React, { useState, useCallback } from 'react';
 import emailjs from 'emailjs-com';
 import { useMediaQuery } from 'react-responsive';
 import { motion } from 'framer-motion';
-import PetContact from '../../Images/GuideImages/Pet-on-ridge.jpg';
-import PetFootstoolSkiDescent from '../../Images/GuideImages/PetFootstoolSkiDescent.jpg';
+import PetContact from '../../Images/GuideImages/Pet-on-ridge.webp';
+import PetFootstoolSkiDescent from '../../Images/GuideImages/PetFootstoolSkiDescent.webp';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const Contact = React.memo(() => {

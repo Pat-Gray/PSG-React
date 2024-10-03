@@ -1,9 +1,8 @@
 import ProductHeader from './../Components/ProductHeader';
-
 import GeneralOverview from '../Components/GeneralOverview';
 import { LuMountainSnow } from 'react-icons/lu';
-import HansClimbing from '../../../Images/climb-images/HansIceClimbing.jpg';
-import PointingmtCook from '../../../Images/climb-images/pointingInCookNp.jpg';
+import HansClimbing from '../../../Images/climb-images/HansIceClimbing.webp';
+import PointingmtCook from '../../../Images/climb-images/pointingInCookNp.webp';
 
 export default function Expedition() {
   return (

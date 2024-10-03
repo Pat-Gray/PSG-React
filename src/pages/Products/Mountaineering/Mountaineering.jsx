@@ -1,15 +1,15 @@
 import React from 'react';
-import EastRidge from '../../../Images/climb-images/petOnEastRidge.jpg';
-import HansClimbing from '../../../Images/climb-images/HansIceClimbing.jpg';
+import EastRidge from '../../../Images/climb-images/petOnEastRidge.webp';
+import HansClimbing from '../../../Images/climb-images/HansIceClimbing.webp';
 import { LuMountainSnow } from 'react-icons/lu';
 import { timeline } from '@material-tailwind/react';
-import LowPk from '../../../Images/climb-images/AdamMountCookLowPk.jpg';
+import LowPk from '../../../Images/climb-images/AdamMountCookLowPk.webp';
 
-import SthFace from '../../../Images/climb-images/DouglasSthFace.jpg';
-import Pointing from '../../../Images/climb-images/pointingInCookNp.jpg';
+import SthFace from '../../../Images/climb-images/DouglasSthFace.webp';
+import Pointing from '../../../Images/climb-images/pointingInCookNp.webp';
 
 import ProductCards from './ProductCards';
-import PetNorway2 from '../../../Images/climb-images/PetNorwayIce2.jpg';
+import PetNorway2 from '../../../Images/climb-images/PetNorwayIce2.webp';
 import ProductHeader from '../Components/ProductHeader';
 import GeneralOverview from '../Components/GeneralOverview';
 import { mountaineeringProducts } from './climbProductData';

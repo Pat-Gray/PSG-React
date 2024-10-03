@@ -1,8 +1,8 @@
 import { LuMountainSnow } from 'react-icons/lu';
 import ProductHeader from './../Components/ProductHeader';
-import HansClimbing from '../../../Images/climb-images/HansIceClimbing.jpg';
+import HansClimbing from '../../../Images/climb-images/HansIceClimbing.webp';
 import GeneralOverview from '../Components/GeneralOverview';
-import PointingmtCook from '../../../Images/climb-images/pointingInCookNp.jpg';
+import PointingmtCook from '../../../Images/climb-images/pointingInCookNp.webp';
 
 export default function Skiing() {
   return (

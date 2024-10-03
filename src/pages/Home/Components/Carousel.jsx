@@ -1,6 +1,6 @@
 import { Carousel } from '@material-tailwind/react';
-import GuidePet from '../../../Images/GuideImages/GuidePet.jpg';
-import GuidePetJapan from '../../../Images/GuideImages/PetGuidingJapan.jpg';
+import GuidePet from '../../../Images/GuideImages/GuidePet.webp';
+import GuidePetJapan from '../../../Images/GuideImages/PetGuidingJapan.webp';
 import GuidePetTasman from '../../../Images/GuideImages/Pet1.webp';
 
 export default function CarouselDefault() {

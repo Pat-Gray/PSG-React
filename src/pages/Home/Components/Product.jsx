@@ -1,8 +1,8 @@
-import EastRidge from '../../../Images/climb-images/petOnEastRidge.jpg';
-import PatStetind from '../../../Images/climb-images/Climbing Stetind Norway.jpg';
-import SkiPlane from '../../../Images/climb-images/SkiPlane.jpg';
-import Trogan from '../../../Images/climb-images/PetTrogan.jpg';
-import SkiPlateau from '../../../Images/ski-images/plateau.jpg';
+import EastRidge from '../../../Images/climb-images/petOnEastRidge.webp';
+import PatStetind from '../../../Images/climb-images/Climbing Stetind Norway.webp';
+import SkiPlane from '../../../Images/climb-images/SkiPlane.webp';
+import Trogan from '../../../Images/climb-images/PetTrogan.webp';
+import SkiPlateau from '../../../Images/ski-images/plateau.webp';
 
 import iceaxe from '../../../../public/Logo/icons/ice-axe.png';
 import ski from '../../../../public/Logo/icons/alpine.png';

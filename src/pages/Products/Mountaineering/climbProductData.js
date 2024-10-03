@@ -1,7 +1,7 @@
-import LowPk from '../../../Images/climb-images/AdamMountCookLowPk.jpg';
-import FiordlandIce from '../../../Images/climb-images/FiordlandIceClimbing.jpg';
-import NorwayIce from '../../../Images/climb-images/PetNorwayIce.jpg';
-import Trogan from '../../../Images/climb-images/PetTrogan.jpg';
+import LowPk from '../../../Images/climb-images/AdamMountCookLowPk.webp';
+import FiordlandIce from '../../../Images/climb-images/FiordlandIceClimbing.webp';
+import NorwayIce from '../../../Images/climb-images/PetNorwayIce.webp';
+import Trogan from '../../../Images/climb-images/PetTrogan.webp';
 
 export const mountaineeringProducts = [
   {

@@ -1,10 +1,10 @@
 import React, { useState, memo } from 'react';
-import campingTorres from '../../Images/products-imgs/CampingundertasmanandTorres.jpg';
-import SkitouringPlateau from '../../Images/ski-images/plateau.jpg';
-import FoxNeveSki from '../../Images/climb-images/FoxNeveSkiTouring.jpg';
-import Maltebrun from '../../Images/climb-images/patMalteBrun.jpg';
-import RidgeClimbing from '../../Images/climb-images/ridgeClimbing.jpg';
-import PatNazomi from '../../Images/climb-images/pat-nazomi.jpg';
+import campingTorres from '../../Images/products-imgs/CampingundertasmanandTorres.webp';
+import SkitouringPlateau from '../../Images/ski-images/plateau.webp';
+import FoxNeveSki from '../../Images/climb-images/FoxNeveSkiTouring.webp';
+import Maltebrun from '../../Images/climb-images/patMalteBrun.webp';
+import RidgeClimbing from '../../Images/climb-images/ridgeClimbing.webp';
+import PatNazomi from '../../Images/climb-images/pat-nazomi.webp';
 import SliderCarousel from '../../Components/Slider';
 import { CiSquarePlus, CiSquareMinus } from 'react-icons/ci';
 
